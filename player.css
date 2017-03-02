@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  font-family: open sans;
+  min-width: 590px;
+
+}
+
+#playerwrap{
+  height: 80px;
+  padding: 10px;
+  border: 0px solid #000;
+  position: absolute;
+  top: 0;
+  bottom: 200;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#player{
+  width: 500px;
+  margin: 0 auto;
+}
+
+#playertable{
+  width: 100%;
+}
+
+#footwrap{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#city{
+  background-image: url("gfx/city.png");
+  background-repeat: repeat-x;
+  height: 68px;
+}
+
+#footer{
+  background-color: #000;
+  height: 120px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer{
+  color: #fff;
+  font-size: 10px;
+  font-family: verdana;
+}
+
+
+#flectrum{
+  width: 100%;
+  height: 50px;
+  border: 0px solid #83a4ac;
+  border-left: none;
+  border-right: none;
+}
+
+.js-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.js-subtitle{
+  font-size: 12px;
+}
+
+.js-time-current{
+  font-size: 11px;
+}
+
+.js-time-total{
+  font-size: 11px;
+}
+
+.js-time-slash{
+  font-size: 11px;
+}
+
+.js-progressbar{
+  width: 500px;
+  height: 1px;
+  background-color: #aaa;
+  position: relative;
+}
+
+.js-position{
+  position: absolute;
+  left: 0%;
+  margin-top: -12px;
+}
