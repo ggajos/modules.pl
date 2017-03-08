@@ -7,15 +7,6 @@
   <script type="text/javascript" src="lib/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="lib/modules.js"></script>
 </head>
-<script>
-    modules.open('./test/test.xm', true); // false if no autoplay
-    setInterval(function() {
-        $('.js-subtitle').text(modules.subtitle());
-        $('.js-time-current').text(modules.time().current.human);
-        $('.js-time-total').text(modules.time().total.human);
-        $('.js-position').css('left', modules.time().position)
-    }, 200);
-</script>
 <body>
   <a href="#" onclick="modPlay('./test/test.zip', 'Dupa - Cipa', 2)">TEST 1</a><br>
   <a href="#" onclick="modPlay('./test/test2.zip', '## && ()!', 2)">TEST 2</a><br>

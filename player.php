@@ -12,10 +12,10 @@
  <script type="text/javascript" src="lib/modules.js"></script>
  <script>
    setInterval(function() {
-    $('.js-subtitle').text(modules.subtitle());
-    $('.js-time-current').text(modules.time().current.human);
-    $('.js-time-total').text(modules.time().total.human);
-    $('.js-position').css('left', modules.time().position)
+      $('.js-subtitle').text(modules.subtitle());
+      $('.js-time-current').text(modules.time().current.human);
+      $('.js-time-total').text(modules.time().total.human);
+      $('.js-position').css('width', modules.time().position);
    }, 200);
  </script>
 </head>
@@ -41,7 +41,7 @@
      <td colspan="4">
  
       <div class="js-progressbar">
-       <div class="js-position">&#9679;</div>
+       <div class="js-position">&nbsp;</div>
       </div>
 
      </td>

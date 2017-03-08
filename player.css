@@ -82,8 +82,9 @@ body{
 }
 
 .js-progressbar{
+  cursor: pointer;
   width: 500px;
-  height: 1px;
+  height: 5px;
   background-color: #aaa;
   position: relative;
 }
@@ -91,5 +92,7 @@ body{
 .js-position{
   position: absolute;
   left: 0%;
-  margin-top: -12px;
+  width: 5px;
+  height: 5px;
+  background: black;
 }
